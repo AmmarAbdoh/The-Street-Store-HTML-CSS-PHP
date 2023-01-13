@@ -1,0 +1,117 @@
+.social-media-image {
+  width: 35px;
+} 
+
+.social-media-image2 {
+  width: 80px;
+}
+
+
+.smaller-image {
+	width: 160px; 
+	margin: 150px;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  left: 20px;
+  float: left;
+  align-items: center;
+}
+
+.smaller-image1 {
+	width: 160px; 
+	margin: 150px;
+	display: flex;
+  flex-wrap: wrap;
+  top: 1px;
+  float: center;
+  align-items: center;
+}
+
+.smaller-image2 {
+  width: 160px; 
+	margin: 150px;
+	display: flex;
+  flex-wrap: wrap;
+  top: 20px;
+  float: right;
+  align-items: center;
+}
+
+.smaller-image3 {
+	width: 160px; 
+	margin: 150px;
+	display: flex;
+  flex-wrap: wrap;
+  top: 1px;
+  float: center;
+  align-items: center;
+}
+
+/*Images above this line*/
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Segoe Print;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: Segoe Print;
+}
+
+.dropbtn {
+    padding: 35px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 35px;
+    box-shadow: 0px 1px 0px 0px ;
+    color: #fdd017;
+  background-color: black;
+}
+
+.dropdown-content a {
+    color: #fdd017;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.center {
+    margin: auto;
+    width: 5%;
+    padding: 10px;
+}

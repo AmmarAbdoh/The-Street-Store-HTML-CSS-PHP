@@ -1,0 +1,27 @@
+<link rel="stylesheet" type="text/css" href="login design.css" />
+<form action="log.php" method="POST">
+  
+<div class="imgcontainer">
+    <img src="https://cdn3.vectorstock.com/i/1000x1000/84/77/logo-for-clothing-store-vector-37718477.jpg" width="200" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container" style=" width:800px; margin:0 auto";>
+    <label for="user_name"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="user_name" required>
+
+    <label for="pws"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pws" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style= "background-color:#f1f1f1" >
+      <input type="button" onclick="window.location.href = 'Reg.html';" value="Don't have an account? Register here!"/>
+	  <input type="button" onclick="window.location.href = 'delete.html';" value="Delete your account"/>
+	  <input type="button" onclick="window.location.href = 'update.html';" value="Update your information"/>
+    <span class="psw"> <a href="#">Forgot password?</a></span>
+  </div>
+</form>
